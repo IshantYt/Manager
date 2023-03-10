@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 // create a bot instance
-const bot = new TelegramBot('6297953673:AAEUyWcq0D2xuQuagGmUlud5Y7FryV57hzs', { polling: true });
+const bot = new TelegramBot('6295929019:AAGyjANMW9acGtD-UA0aWFUX-hqeXp3Y6tU', { polling: true });
 
 // handle incoming messages
 bot.on('message', async (msg) => {
