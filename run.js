@@ -12,8 +12,10 @@ bot.on('message', async (msg) => {
     // check if the user is an admin or owner
     if (chatMember.status === 'creator' || chatMember.status === 'administrator') {
       console.log(`User ${msg.from.id} is an admin or owner in group ${msg.chat.id}`);
+       bot.sendChatAction(msg.chat.id, 'typing');
     } else {
       console.log(`User ${msg.from.id} is not an admin or owner in group ${msg.chat.id}`);
+       bot.sendChatAction(msg.chat.id, 'typing');
     }
   }
 });
