@@ -1,7 +1,10 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 // create a bot instance
-const bot = new TelegramBot('6118662631:AAHRMWEtNNTUkmZI2_HYh8PRvQ41YxH7XuU', { polling: true });
+const token = '6118662631:AAHRMWEtNNTUkmZI2_HYh8PRvQ41YxH7XuU';
+
+// Create a bot instance
+const bot = new TelegramBot(token, { polling: true });
 
 const ownerID = '5246043923';
 
