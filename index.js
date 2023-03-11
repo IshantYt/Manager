@@ -28,7 +28,7 @@ bot.onText(/\/start/, (msg) => {
   };
 
   // Send the message with the buttons
-  bot.sendMessage(chatId, 'Choose a button:', options);
+  bot.sendMessage(chatId, 'Hey ! How Can I Assist You ?', options);
 });
 
 // Define the handler function for the /broadcast command
